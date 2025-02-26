@@ -27,7 +27,7 @@ export default function SkillTestPage() {
         Skill Test
       </h2>
 
-      <div className="rounded-lg bg-card flex flex-wrap gap-4">
+      <div className="rounded-lg bg-card flex flex-wrap lg:flex-nowrap gap-4">
         <div className="grid gap-4 min-w-5/6">
           <div className="flex flex-wrap gap-2 items-center justify-between rounded-lg border p-4 md:p-6">
             <div className="flex flex-wrap items-center gap-2">
