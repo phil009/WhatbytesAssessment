@@ -53,7 +53,7 @@ const CustomTooltip = ({ active, payload }: any) => {
 };
 
 export function ComparisonGraph({ percentile }: ComparisonGraphProps) {
-  const data = generateBellCurveData(50, 15, 100);
+  const data = generateBellCurveData(70, 20, 10);
 
   return (
     <div className="h-[200px] w-full">
